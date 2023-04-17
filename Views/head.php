@@ -22,6 +22,7 @@
 
 <!-- CSS File -->
 <link rel="stylesheet" href="./Views/styles.css">
+<link rel="stylesheet" href="./Views/styles.scss">
 
 <!-- icon -->
 <link rel="icon" type="img/x-icon" alt="Porapipat" href="Views\Chitin_BioPlastic_favicon.png?raw=true">

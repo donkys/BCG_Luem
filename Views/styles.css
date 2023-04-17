@@ -3,11 +3,33 @@
 body {
   background-color: #F3F4F6;
   font-family: 'IBM Plex Sans Thai';
-  font-size: 18px;
+  font-size: 25px;
 }
 
-main {
-  padding: 120px 70px 100px;
+@media only screen and (min-width: 0px) and (max-width: 1185px) {
+  main {
+    padding: 220px 0px 100px;
+  }   
+}
+
+@media only screen and (min-width: 1186px) {
+  main {
+    padding: 120px 0px 100px;
+  }   
+}
+
+button {
+  background-color: #f8f9fa !important;
+  padding: 25px 50px;
+  font-weight: 400;
+  font-size: 25px;
+  border: 0;
+  border-bottom: 10px solid #f8f9fa;
+  color: rgb(53, 90, 146);
+}
+
+button:hover {
+  border-bottom: 10px solid rgb(53, 90, 146);
 
 }
 
@@ -17,7 +39,9 @@ main {
 .footer {
   font-family: 'IBM Plex Sans Thai';
   font-weight: 500;
-  position: fixed;
+  font-size: 18px;
+  position: relative;
+  max-width:100%;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -27,6 +51,32 @@ main {
   text-align: center;
   filter: drop-shadow(-2mm -1mm 5mm rgb(211, 211, 211));
 }
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+
+.img-with-text {
+  text-align: justify;
+  width: [width of img];
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
+
 
 .iconfoot {
   text-align: left;
@@ -42,8 +92,6 @@ main {
   font-weight: 900;
 }
 
-
-
 /* Header */
 
 .nav-text {
@@ -52,6 +100,49 @@ main {
   font-size: 100px;
 }
 
+div.indent {
+  text-indent: 50px;
+}
+
+
 .head-nav {
   padding: 20px 70px;
 }
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #20262E;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai', 'Sarabun';
+  font-weight: 500;
+}
+
+
+input[type=submit],
+input[type=reset] {
+  width: 100%;
+  padding: 10.5px 10px;
+  font-family: 'IBM Plex Sans Thai', 'Sarabun';
+  font-size: 19px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+input[type=submit]:hover {
+  border: 2px solid #913175;
+  background: #913175;
+  color: white;
+}
+
+input[type=reset]:hover,
+input[type=submit].reset:hover {
+  text-decoration: none;
+  border: 2px solid #D61355;
+  background: #D61355;
+  color: white;
+}
+
