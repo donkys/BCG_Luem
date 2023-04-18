@@ -395,13 +395,13 @@
                                         <td>ค่าแรง</td>
                                         <td>1 วัน</td>
                                         <td>353 บาท/วัน</td>
-                                        <td>353</td>
+                                        <td>17.65 บาท/กก.</td>
 
 
                                     </tr>
                                     <tr style="background-color: #ff2f2f;">
                                         <td colspan="4" style="color: white;">ต้นทุนการผลิตต่อชิ้น/ต้นทุนแปรผัน</td>
-                                        <td style="color: white;">598.66 บาท</td>
+                                        <td style="color: white;">263.31 บาท</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -411,7 +411,16 @@
                 </div>
             </div>
         </div>
+        <div style="background-color: rgb(53,90,146); padding: 20px 0;">
 
+            <div style="width: 1000px; margin: auto; color: white;">
+                <h1 class="alert-heading"><b> เมื่อขายราคา 400 บาท </b></h1>
+                <h1 class="alert-heading"><b> จุดคุ้มทุน </b> = ต้นทุนคงที่ / (ราคาขาย - ต้นทุนแปรผัน)</h1>
+                <h1 class="alert-heading"><b> จุดคุ้มทุน </b> = 480 / (400 - 263)</h1>
+                <h1 class="alert-heading"><b> จุดคุ้มทุน </b> = 3.5 กิโลกรัม</h1>
+                <h1 class="alert-heading"> จะคุ้มทุนเมื่อผลิตและขายผลิตภัณฑ์ได้ 3.5 กิโลกรัมขึ้นไป</h1>
+            </div>
+        </div>
     </main>
 
     <!-- footer -->
